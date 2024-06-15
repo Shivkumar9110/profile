@@ -1,0 +1,318 @@
+/* style sheet */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    
+    color: rgb(0, 0, 0);
+    background-color: #f6f7fd;
+    /* overflow-x: hidden; */
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px;  
+    box-shadow: 2px 2px 4px rgb(234, 234, 239) ,-2px -2px 9px rgb(121, 121, 123);
+    background-color: rgb(220, 220, 223);
+   
+    top: 0px;
+
+}
+
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+      
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+}
+
+li{
+    font-size: large;
+    cursor: pointer;
+}
+
+li:hover{
+    color: red;
+}
+
+/* ANCHOR LINK STYLING */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    font-weight: bold;
+}
+
+#input{
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: transparent;
+
+}
+#in ,#submit{
+    height: 30px;
+}
+
+
+/* NOTICE PART STYLING CODE */
+#notice{
+    height: 50px;
+   width: 100%;
+    font-size:15px;
+    margin-top: 10px;
+   
+}
+#notice_heading{
+    text-align: center;
+    color: rgb(253, 4, 4);
+    font-weight: bold;
+  
+}
+
+
+
+
+#notice_update_content{
+   
+    color: rgb(255, 0, 0);
+    font-size: xx-large;
+   
+        
+  
+}
+
+
+
+
+
+
+
+
+
+/* main part styling */
+
+main{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 600px;
+    /* link google font style */
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      
+      
+    
+}
+
+/* STYLING THE CHAT MENU */
+
+#chatwithus{
+   
+    text-decoration: none;
+}
+
+
+#leftside{
+   
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftside h1{
+     margin-left: -190px;
+}
+
+span{
+    background-color: rgb(169, 221, 227);
+    color: rgb(43, 64, 170);
+}
+
+main h1{
+    font-size: 40px;
+}
+
+main h4{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#rightside img{  
+    
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 4px 4px rgb(146, 143, 143),-2px -4px 4px rgb(207, 203, 203);
+    border-radius: 25%;
+
+
+}
+ #rightside{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(116, 110, 110);
+    border-radius: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+
+button:hover{
+    background-color:rgb(191, 175, 206);
+}
+
+
+
+
+
+/* ABOUT SECTION STYLING STARTED     */
+
+#aboutSection{
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    margin: 30px;
+}
+#sectiondiv_one{
+    
+    text-align: center;
+   
+}
+#about_starting{
+   
+    color: #414141;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+}
+#about_img{
+    width: 400px;
+    height: 600px;
+    border-radius: 45px 500px;
+}
+
+#about_sectiondiv_two_content{
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 40px;
+}
+#sectiondiv_one{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#sectiondiv_two{
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* footer styling */
+
+footer{
+    /* width: 100%; */
+    height:400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(252, 252, 252);
+    background-color: #010101;
+
+    
+}
+.ProjectContainer{
+    display: grid;
+    justify-content: center;
+    
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.Project a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 20px;
+}
+.ProjectContainer h1{
+    
+    padding: 10px;
+}
+.contact{
+    display: grid;
+   justify-content: center;
+}
+.contactt{
+    margin-top: 20px;
+   display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 80px;
+    color: red;
+  
+}
+.service{
+    display: grid;
+    justify-content: center;
+}
+.ProjectContainer a{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.service h4{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* instagram icon styling */
+#instagram{
+    font-size: 80px;
+    color: red;
+}
+
+
+
+
+

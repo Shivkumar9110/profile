@@ -1,0 +1,397 @@
+/* mobile responsive */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+  
+    #hamebargaricon{
+      display: none;
+    }
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+  
+    /* header styling */
+    #hamebargaricon{
+      display: none;
+    }
+  /* main section */
+  main{
+    gap: auto ;
+  }
+  
+  #leftside{
+    padding-left: 30px;
+  }
+  #leftside h1{
+    margin-left: -50px;
+    
+  }
+  #leftside h4{
+    font-size: x-large;
+  }
+  
+  
+  
+    #notice_update_content{
+      font-size: x-large;
+    }
+   
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    #hamebargaricon{
+      display: none;
+    }
+    
+    #notice_update_content{
+      font-size: x-large;
+    }
+    #leftside{
+      padding-left: 30px;
+    }
+    #leftside h1{
+      margin-left: auto;
+      
+    }
+    #leftside h4{
+      font-size: x-large;
+    }
+  }
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+   
+    /* CSS */
+    #hamebargaricon{
+      display: none;
+    }
+  
+    #header{
+      
+      font-size: smaller;
+    }
+    #logo{
+      margin-top: 0px;
+      margin-left: 12px;
+      display: flex;
+      align-items: center;
+      font-size: smaller;
+    }
+    #header ul{
+      gap: 20px;
+      
+    }
+    #header ul li{
+      font-size: 16px;
+    }
+    #notice_update_content{
+      font-size: smaller;
+    }
+    #notice_heading{
+      font-size: x-large;
+    }
+    a{
+      font-size: 16px;
+    }
+    main{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      
+    }
+   #main #leftside{
+    padding: 0px;
+   }
+  
+    #in{
+      width: 130px;
+    }
+    
+    #rightside img{  
+      display: flex;
+      align-items: center;
+      width: 200px;
+      height: 300px;
+      box-shadow: 2px 4px 4px rgb(146, 143, 143),-2px -4px 4px rgb(207, 203, 203);
+      border-radius: 25%;
+  
+    }
+    #leftside{
+      padding-left: 10px;
+      
+    }
+    #leftside h1{
+      font-size:30px;
+      margin-left: 0px;
+  
+    }
+    #leftside h4{
+      font-size: 16px;
+    }
+  
+  
+    /* profile  */
+    #sectionimageone{
+      width: 200px;
+      height:300px;
+    }
+  
+  
+    /* about section */
+    
+    #about_img{
+      width: 200px;
+      height: 400px;
+      border-radius: 45px 500px;
+  }
+  #about_sectiondiv_two_content{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+  }
+  
+  }
+  
+  
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+   
+  /* header */
+  
+    #header ul{
+      display: none;
+    }
+  #input{
+    display: none;
+  }
+  #hamebargaricon{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  /* notice */
+  
+  #notice_update_content{
+    font-size: smaller;
+  }
+  #notice_heading{
+    font-size: x-large;
+  }
+  
+  
+    /* main section */
+    main{
+     
+      display: grid;
+      grid-template-rows: auto auto;
+      margin-top: 30px;
+      margin: 40px 0px 40px 0px;
+      font-family: "Bungee Spice", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+       
+  }
+  #rightside img{  
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 4px 4px rgb(146, 143, 143),-2px -4px 4px rgb(207, 203, 203);
+    border-radius: 25%;
+  
+  }
+  #leftside{
+    padding-left: 5px;
+    
+  }
+  #leftside h1{
+    font-size:20px;
+    margin-left: 0px;
+  
+  }
+  #leftside h4{
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+  /* profile  */
+  #sectionimageone{
+    width: 200px;
+    height:300px;
+  }
+  /* about */
+  #about_img{
+    width: 300px;
+    height: 400px;
+    
+    
+  }
+  
+  #aboutSection{
+    display: flex;
+    flex-direction:column;
+  }
+  
+  
+  
+  /* footer */
+  
+      footer{
+        height: auto;
+        gap: 50px;
+        margin-top: 300px;
+       display: flex;
+       flex-direction: column;
+      }
+  
+      .service{
+        gap: 30px;
+      }
+  
+  }
+  
+  @media  (max-width:320px){
+   
+  /* header */
+  
+    #header ul{
+      display: none;
+    }
+  #input{
+    display: none;
+  }
+  #hamebargaricon{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  /* notice */
+  
+  #notice_update_content{
+    font-size: smaller;
+  }
+  #notice_heading{
+    font-size: x-large;
+  }
+  
+  
+    /* main section */
+    main{
+     
+      display: grid;
+      grid-template-rows: auto auto;
+      margin-top: 30px;
+      margin: 40px 0px 40px 0px;
+      font-family: "Bungee Spice", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+       
+  }
+  #rightside img{  
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    box-shadow: 2px 4px 4px rgb(146, 143, 143),-2px -4px 4px rgb(207, 203, 203);
+    border-radius: 25%;
+  
+  }
+  #leftside{
+    padding-left: 5px;
+    
+  }
+  #leftside h1{
+    font-size:20px;
+    margin-left: 0px;
+  
+  }
+  #leftside h4{
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  
+  /* profile  */
+  #sectionimageone{
+    width: 200px;
+    height:300px;
+  }
+  /* about */
+  #about_img{
+    width: 250px;
+    height: 350px;
+    
+    
+  }
+  
+  #aboutSection{
+    display: flex;
+    flex-direction:column;
+  }
+  
+  
+  
+  /* footer */
+  
+      footer{
+        height: auto;
+        gap: 50px;
+        margin-top: 300px;
+       display: flex;
+       flex-direction: column;
+       font-size: smaller;
+      }
+  
+      .service{
+        gap: 30px;
+      }
+      #instagram{
+        font-size: 40px;
+        color: red;
+    }
+    .contactt{
+      font-size: 40px;
+    }
+  
+  }
+  
+  
