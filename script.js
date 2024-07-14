@@ -1,11 +1,34 @@
+ 
+// HameBarGargarIcon 
 
-let Changefont_size=setInterval(fun,3000)
+let HameBarGargarIcon = document.querySelector("#hamebargaricon");
 
-function fun(){
-    let mainsection_leftside_text = document.querySelector("#leftside");
-   
-    mainsection_leftside_text.style.fontStyle = "italic";
+
+let HameBarGargarIconCloseSign= document.querySelector("#close_Icon")
+
+
+HameBarGargarIcon.addEventListener("click", open);
+
+HameBarGargarIconCloseSign.addEventListener("click",close);
+
+function open(){
+    let hamebargar= document.querySelector(".hide_magbargar");
+    HameBarGargarIcon.style.visibility="hidden";
+    
+    HameBarGargarIconCloseSign.style.visibility="visible";
+
+    
+    
+
+  
 }
 
 
+function close(){
+    console.log("close funtion do work.")
+    
+    HameBarGargarIconCloseSign.style.display="none";
+
+    HameBarGargarIcon.style.visibility="visible"
+}
 

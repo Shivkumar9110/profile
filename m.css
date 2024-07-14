@@ -193,7 +193,9 @@
     /* CSS */
    
   /* header */
-  
+  #close_Icon{
+    visibility: hidden;
+  }
     #header ul{
       display: none;
     }
@@ -291,7 +293,9 @@
   @media  (max-width:320px){
    
   /* header */
-  
+  #close_Icon{
+    visibility:hidden;
+  }
     #header ul{
       display: none;
     }
