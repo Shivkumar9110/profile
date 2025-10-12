@@ -20,7 +20,9 @@ const router = createBrowserRouter(
         { path: "/", element: <Home /> },
         { path: "about", element: <About /> },
         { path: "contact", element: <Contact /> },
-        { path: "Gallary", element: <Gallary />}
+        { path: "Gallary", element: <Gallary />},
+        {basename:import.meta.env.PUBLIC_URL ? '/':'/Profile/'}
+        
         
       ]
     }
