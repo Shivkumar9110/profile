@@ -70,13 +70,13 @@ const AlertMessage = () => alert("Thank you for Clicking button will be start  s
 
                 <li>
                   <NavLink
-                    to="/gallary"
+                    to="/gallery"
                     
                     className={({ isActive }) =>
                     `${isActive ? "font-semibold  text-orange-400 cuursor-pointer" : "hover:underline font-bold text-black-400"}`
                     }
                     >
-                       Gallary
+                       Gallery
                   </NavLink>
                 </li>
 
@@ -131,13 +131,13 @@ const AlertMessage = () => alert("Thank you for Clicking button will be start  s
 
                 <li>
                   <NavLink
-                    to="/gallary"
+                    to="/gallery"
                     onClick={handleLinkClick}
                     className={({ isActive }) =>
                     `${isActive ? "font-semibold  text-orange-400 cuursor-pointer" : "hover:underline font-bold text-black-400"}`
                     }
                     >
-                       Gallary
+                       Gallery
                   </NavLink>
                 </li>
 
