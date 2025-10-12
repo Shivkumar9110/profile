@@ -12,6 +12,6 @@ export default ({ mode }) => {
 
   return defineConfig({
     plugins: [react(), tailwindcss()],
-    base: env.VITE_PUBLIC_URL || '/Profile/', // ✅ use env variable or fallback
+    base: env.VITE_PUBLIC_URL || '/Profile', // ✅ use env variable or fallback
   })
 }
